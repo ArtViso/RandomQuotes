@@ -1,0 +1,43 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    width: 650px;
+    margin: 0 auto;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.text{
+    padding: 5% 5% 5% 5%;
+    margin-top: 35%;
+}
+.quotes{
+    text-align: center;
+    font-size: 30px;
+}
+.author{
+    text-align: right;
+    font-size: 30px;
+}
+.buttons{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.btn{
+    text-transform: uppercase;
+    outline: none;
+    border:none;
+    font-size: 40px;
+    color:#000;
+    background-color:rgb(231, 231, 231);
+    transition: .5s;
+}
+.btn:hover {
+    background: #60b4f8;
+    transition: .3s;
+}
+.contentback{
+    background-color:rgb(231, 231, 231)
+}
